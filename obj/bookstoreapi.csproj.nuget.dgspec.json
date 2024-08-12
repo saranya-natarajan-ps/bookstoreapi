@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj": {}
+    "D:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj": {}
   },
   "projects": {
-    "d:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj": {
+    "D:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj",
+        "projectUniqueName": "D:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj",
         "projectName": "bookstoreapi",
-        "projectPath": "d:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj",
+        "projectPath": "D:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\bookstoreapi.csproj",
         "packagesPath": "D:\\Users\\saranya\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\obj\\",
+        "outputPath": "D:\\Users\\saranya\\Desktop\\Academy\\bookstoreapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\saranya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,7 +82,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.7.0, )"
             },
             "System.Net.Http": {
               "target": "Package",
