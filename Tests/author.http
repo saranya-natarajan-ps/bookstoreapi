@@ -1,0 +1,25 @@
+### Create a new author
+POST http://localhost:5009/api/authors
+Content-Type: application/json
+
+{
+  "authorName": "Balakumaran",
+  "biography": "Balakumaran (5 July 1946 – 15 May 2018)[1] was an Indian Tamil writer and author of over 200 novels, 100 short stories, and dialogue/screenplay writer for 23 films.[2] He also contributed to Tamil periodicals such as Kalki, Ananda Vikatan and Kumudam.[3] His notable works as a dialogue writer in Tamil Cinema include Nayakan, Guna, Baashha and Pudhupettai."
+}
+
+### Get all authors
+GET http://localhost:5009/api/authors
+
+### Get a specific author by ID
+GET http://localhost:5009/api/authors/15
+
+### Update an author
+PUT http://localhost:5009/api/authors/15
+Content-Type: application/json
+
+{
+  "authorId": 15,
+  "authorName": "Paul Auster",
+  "biography": "Paul Benjamin Auster was an American  Writer, novelist, memoirist, poet, and filmmaker."
+}
+

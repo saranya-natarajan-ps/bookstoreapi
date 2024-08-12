@@ -1,0 +1,33 @@
+### Create a new book
+POST http://localhost:5009/api/books
+Content-Type: application/json
+
+{
+  "title": "Moon Palace",
+  "authorId": 15,
+  "genreId": 1,
+  "publicationDate": "1997-06-26",
+  "image": "https://angelbookhouse.com/assets/front/img/product/edition_placeholder.png"
+}
+
+### Get all books
+//GET http://localhost:5009/api/books
+
+### Get a specific book by ID
+GET http://localhost:5009/api/books/10
+
+### Update a book
+PUT http://localhost:5009/api/books/10
+Content-Type: application/json
+
+{
+  "bookId": 10,
+  "title": "The Trial1",
+  "authorId": 13,
+  "genreId": 1,
+  "publicationDate": "1999-10-16",
+  "image": "http://books.google.com/books/content?id=8T9_cxH7z6sC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+}
+
+### Delete a book
+DELETE http://localhost:5009/api/books/102

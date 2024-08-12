@@ -1,0 +1,22 @@
+### Create a new genre
+POST http://localhost:5009/api/genres
+Content-Type: application/json
+
+{
+  "genreName": "Fantasy"
+}
+
+### Get all genres
+GET http://localhost:5009/api/genres
+
+### Get a specific genre by ID
+GET http://localhost:5009/api/genres/7
+
+### Update a genre
+PUT http://localhost:5009/api/genres/7
+Content-Type: application/json
+
+{
+  "genreId": 7,
+  "genreName": "History-Fiction"
+}
